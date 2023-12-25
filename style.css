@@ -776,7 +776,6 @@ padding-bottom: 0;
     0%{
       transform: translate(-10%, 0);
     }
-    
     100%{
       transform: translate(-60%, 0);
     }
@@ -842,21 +841,14 @@ background-position: center;
 background-size: cover;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-device-width:1024px) {
     .firstscreen {
-       max-width: 1024px;
        grid-template-rows: 1fr 1fr;
     }
- } 
-@media screen and (max-width:1024px) {
     .secondscreen {
-       max-width: 1024px;
-       grid-template-rows: 1fr 1fr 1fr;
-    }
- } 
- @media screen and (max-width:1024px) {
-    .thirdscreen {
-       max-width: 1024px;
-       grid-template-rows: 1fr 1fr;
-    }
+        grid-template-rows: 1fr 1fr 1fr;
+     }
+     .thirdscreen {
+        grid-template-rows: 1fr 1fr;
+     }
  } 
