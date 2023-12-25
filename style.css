@@ -275,10 +275,10 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    .firstdscreen {
+    .firstscreen {
        max-width: 1024px;
        width: 100%;
-       grid-template-rows: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
     }
  } 
 .man {
@@ -711,7 +711,22 @@ padding-bottom: 0;
 
 
 
-.arrows {
+
+
+
+
+.thirdscreen {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+@media screen and (max-width: 1024px) {
+    .thirdscreen {
+       max-width: 1024px;
+       width: 100%;
+       grid-template-rows: 1fr 1fr;
+    }
+ } 
+ .arrows {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -747,21 +762,6 @@ padding-bottom: 0;
     }
   } 
 
-
-
-
-
-.thirdscreen {
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-}
-@media screen and (max-width: 1024px) {
-    .firstdscreen {
-       max-width: 1024px;
-       width: 100%;
-       grid-template-rows: 1fr 1fr 1fr;
-    }
- } 
 .string {
     display: grid;
     grid-template-rows: 1fr 1fr;
