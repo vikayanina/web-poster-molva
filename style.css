@@ -274,13 +274,7 @@ body {
     grid-template-columns: 2fr 1fr;
 }
 
-@media screen and (max-width: 1024px) {
-    .firstscreen {
-       max-width: 1024px;
-       width: 100%;
-       grid-template-rows: 1fr 1fr;
-    }
- } 
+
 .man {
     display: grid;
     grid-template-rows: 2fr 1fr;
@@ -500,13 +494,7 @@ margin-left: 20%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-@media screen and (max-width: 1024px) {
-    .secondscreen {
-       max-width: 1024px;
-       width: 100%;
-       grid-template-rows: 1fr 1fr 1fr;
-    }
- } 
+
 .polygon {
     background-color: white;
     display: flex;
@@ -719,13 +707,7 @@ padding-bottom: 0;
     display:grid;
     grid-template-columns: 1fr 2fr;
 }
-@media screen and (max-width: 1024px) {
-    .thirdscreen {
-       max-width: 1024px;
-       width: 100%;
-       grid-template-rows: 1fr 1fr;
-    }
- } 
+
  .arrows {
     background-color: white;
     display: grid;
@@ -861,3 +843,22 @@ background-repeat: repeat;
 background-position: center;
 background-size: cover;
 }
+
+@media screen and (max-width:1024px) {
+    .firstscreen {
+       max-width: 1024px;
+       grid-template-rows: 1fr 1fr;
+    }
+ } 
+@media screen and (max-width:1024px) {
+    .secondscreen {
+       max-width: 1024px;
+       grid-template-rows: 1fr 1fr 1fr;
+    }
+ } 
+ @media screen and (max-width:1024px) {
+    .thirdscreen {
+       max-width: 1024px;
+       grid-template-rows: 1fr 1fr;
+    }
+ } 
