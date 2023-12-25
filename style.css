@@ -114,6 +114,7 @@ body {
     width: 20%;
     animation: 10s infinite linear fly3, 30s infinite imgheader2_rot;
 }
+
 @keyframes fly3 {
     0% {
         top: -20%;
@@ -273,7 +274,13 @@ body {
     grid-template-columns: 2fr 1fr;
 }
 
-
+@media screen and (max-width: 1024px) {
+    .firstdscreen {
+       max-width: 1024px;
+       width: 100%;
+       grid-template-rows: 1fr 1fr 1fr;
+    }
+ } 
 .man {
     display: grid;
     grid-template-rows: 2fr 1fr;
@@ -491,16 +498,15 @@ margin-left: 20%;
 
 .secondscreen {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .secondscreen {
        max-width: 1024px;
        width: 100%;
-       grid-template-columns: 1fr;
        grid-template-rows: 1fr 1fr 1fr;
     }
- } */
+ } 
 .polygon {
     background-color: white;
     display: flex;
@@ -749,6 +755,13 @@ padding-bottom: 0;
     display:grid;
     grid-template-columns: 1fr 2fr;
 }
+@media screen and (max-width: 1024px) {
+    .firstdscreen {
+       max-width: 1024px;
+       width: 100%;
+       grid-template-rows: 1fr 1fr 1fr;
+    }
+ } 
 .string {
     display: grid;
     grid-template-rows: 1fr 1fr;
