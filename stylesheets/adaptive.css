@@ -1,0 +1,39 @@
+
+@media screen and (max-device-width:1024px) {
+    .firstscreen {
+       
+       grid-template-columns:  1fr;
+    }
+    .secondscreen {
+        grid-template-columns: 1fr;
+     }
+     .thirdscreen {
+        grid-template-columns: 1fr;
+     }
+     .hand__text {
+        font-size: 100px;
+     }
+     .header__img {
+        width: 40%;
+     }
+     
+ } 
+
+ @media screen and (max-device-width:414px) {
+     .hand__text {
+        font-size: 50px;
+     }
+     .footer__info {
+        flex-direction: column;
+     }
+     .footer__info_text {
+        font-size: 14px;
+     }
+     .header__img {
+        width: 50%;
+     }
+     .header__logo {
+        padding-top: 3%;
+        padding-bottom: 3%;
+     }
+ } 
